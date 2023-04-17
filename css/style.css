@@ -2654,7 +2654,7 @@
     }
     
     .playlist__right__image-1 {
-        background-image: url(images/play-list-1.jpg);
+        background-image: url(../images/play-list-1.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2662,7 +2662,7 @@
     }
     
     .playlist__right__image-2 {
-        background-image: url(images/play-list-2.jpg);
+        background-image: url(../images/play-list-2.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2670,7 +2670,7 @@
     }
     
     .playlist__right__image-3 {
-        background-image: url(images/play-list-3.jpg);
+        background-image: url(../images/play-list-3.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2678,7 +2678,7 @@
     }
     
     .playlist__right__image-4 {
-        background-image: url(images/play-list-4.jpg);
+        background-image: url(../images/play-list-4.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2686,7 +2686,7 @@
     }
     
     .playlist__right__image-5 {
-        background-image: url(images/play-list-5.jpg);
+        background-image: url(../images/play-list-5.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2694,7 +2694,7 @@
     }
     
     .playlist__right__image-6 {
-        background-image: url(images/play-list-6.jpg);
+        background-image: url(../images/play-list-6.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2702,7 +2702,7 @@
     }
     
     .playlist__right__image-7 {
-        background-image: url(images/play-list-7.jpg);
+        background-image: url(../images/play-list-7.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2710,7 +2710,7 @@
     }
     
     .playlist__right__image-8 {
-        background-image: url(images/play-list-8.jpg);
+        background-image: url(../images/play-list-8.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2718,7 +2718,7 @@
     }
     
     .playlist__right__image-9 {
-        background-image: url(images/play-list-9.jpg);
+        background-image: url(../images/play-list-9.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2726,7 +2726,7 @@
     }
     
     .playlist__right__image-10 {
-        background-image: url(images/play-list-10.jpg);
+        background-image: url(../images/play-list-10.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2734,7 +2734,7 @@
     }
     
     .playlist__right__image-11 {
-        background-image: url(images/play-list-11.jpg);
+        background-image: url(../images/play-list-11.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
@@ -2742,7 +2742,7 @@
     }
     
     .playlist__right__image-12 {
-        background-image: url(images/play-list-12.jpg);
+        background-image: url(../images/play-list-12.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 160px;
