@@ -798,7 +798,7 @@
         .header__nav__list::before {
             content: "";
             position: absolute;
-            background-image: url(/images/header-nav-up.svg);
+            background-image: url(../images/header-nav-up.svg);
             background-repeat: no-repeat;
             width: 115px;
             height: 370px;
@@ -807,7 +807,7 @@
         .header__nav__list::after {
             content: "";
             position: absolute;
-            background-image: url(/images/header-nav-up.svg);
+            background-image: url(../images/header-nav-up.svg);
             background-repeat: no-repeat;
             width: 117px;
             height: 335px;
@@ -969,7 +969,7 @@
         }
         .header__bottom__btn::before {
             content: "";
-            background-image: url(/images/esc.svg);
+            background-image: url(../images/esc.svg);
             background-repeat: no-repeat;
             width: 15px;
             height: 15px;
@@ -999,7 +999,7 @@
         }
         .header__player__btn-1 {
             content: "";
-            background-image: url(/images/button-play.svg);
+            background-image: url(../images/button-play.svg);
             width: 20px;
             height: 20px;
             background-repeat: no-repeat;
@@ -1014,7 +1014,7 @@
         }
         .header__player__btn-2 {
             content: "";
-            background-image: url(/images/button-play.svg);
+            background-image: url(../images/button-play.svg);
             width: 25px;
             height: 24px;
             background-repeat: no-repeat;
@@ -1063,7 +1063,7 @@
     }
     
     .hero__image {
-        background-image: url(/images/microphone.png);
+        background-image: url(../images/microphone.png);
         background-repeat: no-repeat;
         width: 350px;
         height: 459px;
@@ -1131,7 +1131,7 @@
             max-width: 826px;
         }
         .hero__image {
-            background-image: url(/images/microphone-1024.png);
+            background-image: url(../images/microphone-1024.png);
             width: 174px;
             margin-top: 54px;
             padding-right: 85px;
@@ -1713,7 +1713,7 @@
         margin-top: 0;
         width: 15px;
         height: 15px;
-        background-image: url("/images/list-arrow.svg");
+        background-image: url(../images/list-arrow.svg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1798,7 +1798,7 @@
             padding-bottom: 30px;
         }
         .broadcast__bottom__image {
-            background-image: url(/images/broadcast-mic.png);
+            background-image: url(../images/broadcast-mic.png);
             width: 70px;
             height: 96px;
             background-repeat: no-repeat;
@@ -2071,7 +2071,7 @@
     }
     
     .guests__right__image {
-        background-image: url(/images/guests-stub-selection.svg);
+        background-image: url(../images/guests-stub-selection.svg);
         background-repeat: no-repeat;
         height: 232px;
         background-size: contain;
@@ -2168,7 +2168,7 @@
     }
     
     .guests__right__image {
-        background-image: url(/images/guest.jpg);
+        background-image: url(../images/guest.jpg);
         background-repeat: no-repeat;
         max-width: 356px;
         min-height: 234px;
@@ -2176,7 +2176,7 @@
     }
     
     .guests__right__image-1 {
-        background-image: url(/images/guest.jpg);
+        background-image: url(../images/guest.jpg);
         background-repeat: no-repeat;
         max-width: 356px;
         min-height: 234px;
@@ -2184,7 +2184,7 @@
     }
     
     .guests__right__image-2 {
-        background-image: url(/images/guest.jpg);
+        background-image: url(../images/guest.jpg);
         background-repeat: no-repeat;
         max-width: 356px;
         min-height: 234px;
@@ -2192,7 +2192,7 @@
     }
     
     .guests__right__image-3 {
-        background-image: url(/images/guest.jpg);
+        background-image: url(../images/guest.jpg);
         background-repeat: no-repeat;
         max-width: 356px;
         min-height: 234px;
@@ -2262,13 +2262,13 @@
             max-width: 564px;
         }
         .guests__right__image {
-            background-image: url(/images/quest-768-1.jpg);
+            background-image: url(../images/quest-768-1.jpg);
         }
         .guests__right__image-1 {
-            background-image: url(/images/quest-768.jpg);
+            background-image: url(../images/quest-768.jpg);
         }
         .guests__right__image-2 {
-            background-image: url(/images/quest-768.jpg);
+            background-image: url(../images/quest-768.jpg);
         }
         .guests__right__descr {
             max-width: 397px;
@@ -2348,7 +2348,7 @@
             min-height: 158px;
         }
         .guests__right__image {
-            background-image: url(/images/quest-320.jpg);
+            background-image: url(../images/quest-320.jpg);
             max-height: 159px;
         }
         .ac {
@@ -2428,7 +2428,7 @@
         bottom: -3px;
         width: 46px;
         height: 31px;
-        background-image: url(/images/chekbox.svg);
+        background-image: url(../images/chekbox.svg);
         background-position: center;
         background-size: 70%;
         background-repeat: no-repeat;
@@ -2567,7 +2567,7 @@
     }
     
     .playlist__right__btn {
-        background-image: url(images/play_list-btn.svg);
+        background-image: url(../images/play_list-btn.svg);
         background-repeat: no-repeat;
         width: 47px;
         height: 47px;
@@ -2647,7 +2647,7 @@
     
     .playlist__left__image {
         z-index: 1;
-        background-image: url(images/playlist-18+.svg);
+        background-image: url(../images/playlist-18+.svg);
         background-repeat: no-repeat;
         width: 30px;
         height: 30px;
@@ -2982,68 +2982,68 @@
         }
         .playlist__left__image {
             z-index: 1;
-            background-image: url(images/playlist-18+.svg);
+            background-image: url(../images/playlist-18+.svg);
             background-repeat: no-repeat;
             width: 30px;
             height: 30px;
         }
         .playlist__right__image-1 {
-            background-image: url(images/play-list-1-320.jpg);
+            background-image: url(../images/play-list-1-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-2 {
-            background-image: url(images/play-list-2-320.jpg);
+            background-image: url(../images/play-list-2-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-3 {
-            background-image: url(images/play-list-3-320.jpg);
+            background-image: url(../images/play-list-3-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-4 {
-            background-image: url(images/play-list-4-320.jpg);
+            background-image: url(../images/play-list-4-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-5 {
-            background-image: url(images/play-list-5-320.jpg);
+            background-image: url(../images/play-list-5-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-6 {
-            background-image: url(images/play-list-6-320.jpg);
+            background-image: url(../images/play-list-6-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-7 {
-            background-image: url(images/play-list-7-320.jpg);
+            background-image: url(../images/play-list-7-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-8 {
-            background-image: url(images/play-list-8-320.jpg);
+            background-image: url(../images/play-list-8-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-9 {
-            background-image: url(images/play-list-9-320.jpg);
+            background-image: url(../images/play-list-9-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-10 {
-            background-image: url(images/play-list-10-320.jpg);
+            background-image: url(../images/play-list-10-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-11 {
-            background-image: url(images/play-list-11-320.jpg);
+            background-image: url(../images/play-list-11-320.jpg);
             width: 175px;
             height: 160px;
         }
         .playlist__right__image-12 {
-            background-image: url(images/play-list-12-320.jpg);
+            background-image: url(../images/play-list-12-320.jpg);
             width: 175px;
             height: 160px;
         }
@@ -3077,7 +3077,7 @@
     }
     
     .adv__left__image {
-        background-image: url(images/radio-about.png);
+        background-image: url(../images/radio-about.png);
         width: 640px;
         height: 652px;
         background-repeat: no-repeat;
@@ -3100,7 +3100,7 @@
     .adv__right__title::before {
         content: "";
         position: absolute;
-        background-image: url(images/adb-vector.svg);
+        background-image: url(../images/adb-vector.svg);
         background-repeat: no-repeat;
         width: 100%;
         height: 20px;
@@ -3238,7 +3238,7 @@
         }
         .adv__right__title::before {
             content: "";
-            background-image: url(images/footer-vector.svg);
+            background-image: url(../images/footer-vector.svg);
             width: 545px;
             height: 20px;
         }
@@ -3268,7 +3268,7 @@
         }
         .adv__right__title::before {
             content: "";
-            background-image: url(images/footer-vector.svg);
+            background-image: url(../images/footer-vector.svg);
             width: 100%;
             top: 58px;
             height: 20px;
@@ -3317,7 +3317,7 @@
     
     .about__top::before {
         content: "";
-        background-image: url(images/about-spiral.svg);
+        background-image: url(../images/about-spiral.svg);
         width: 160px;
         height: 290px;
         position: absolute;
@@ -3327,7 +3327,7 @@
     
     .about__top::after {
         content: "";
-        background-image: url(images/about-star.svg);
+        background-image: url(../images/about-star.svg);
         width: 255px;
         height: 255px;
         position: absolute;
@@ -3380,42 +3380,42 @@
     }
     
     .about__item__image-1 {
-        background-image: url(images/about-image-1.jpg);
+        background-image: url(../images/about-image-1.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
     }
     
     .about__item__image-2 {
-        background-image: url(images/about-image-2.jpg);
+        background-image: url(../images/about-image-2.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
     }
     
     .about__item__image-3 {
-        background-image: url(images/about-image-3.jpg);
+        background-image: url(../images/about-image-3.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
     }
     
     .about__item__image-4 {
-        background-image: url(images/about-image-4.jpg);
+        background-image: url(../images/about-image-4.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
     }
     
     .about__item__image-5 {
-        background-image: url(images/about-image-5.jpg);
+        background-image: url(../images/about-image-5.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
     }
     
     .about__item__image-6 {
-        background-image: url(images/about-image-6.jpg);
+        background-image: url(../images/about-image-6.jpg);
         background-repeat: no-repeat;
         width: 255px;
         height: 255px;
@@ -3532,7 +3532,7 @@
     .chek[type="checkbox"]:before {
         font-family: "FontAwesome";
         content: "";
-        background-image: url(images/Check.svg);
+        background-image: url(../images/Check.svg);
         font-size: 13px;
         border-radius: 4px;
         color: transparent !important;
@@ -3546,7 +3546,7 @@
     
     .chek[type="checkbox"]:checked:before {
         content: "";
-        background-image: url(images/Check.svg);
+        background-image: url(../images/Check.svg);
         width: 15px;
         height: 15px;
         background-repeat: no-repeat;
@@ -3584,27 +3584,27 @@
             width: 390px;
         }
         .about__item__image-1 {
-            background-image: url(images/about-image-1-1024.jpg);
+            background-image: url(../images/about-image-1-1024.jpg);
             width: 401px;
         }
         .about__item__image-2 {
-            background-image: url(images/about-image-2-1024.jpg);
+            background-image: url(../images/about-image-2-1024.jpg);
             width: 401px;
         }
         .about__item__image-3 {
-            background-image: url(images/about-image-3-1024.jpg);
+            background-image: url(../images/about-image-3-1024.jpg);
             width: 401px;
         }
         .about__item__image-4 {
-            background-image: url(images/about-image-4-1024.jpg);
+            background-image: url(../images/about-image-4-1024.jpg);
             width: 401px;
         }
         .about__item__image-5 {
-            background-image: url(images/about-image-5-1024.jpg);
+            background-image: url(../images/about-image-5-1024.jpg);
             width: 401px;
         }
         .about__item__image-6 {
-            background-image: url(images/about-image-6-1024.jpg);
+            background-image: url(../images/about-image-6-1024.jpg);
             width: 401px;
         }
         .about__top::after {
@@ -3658,7 +3658,7 @@
         }
         .about__text__descr::before {
             content: "";
-            background-image: url(images/about-vector-768.svg);
+            background-image: url(../images/about-vector-768.svg);
             background-repeat: no-repeat;
             width: 513px;
             height: 117px;
@@ -3672,32 +3672,32 @@
             width: 115px;
             height: 200px;
             position: absolute;
-            background-image: url(images/about-vector-star-768.svg);
+            background-image: url(../images/about-vector-star-768.svg);
             top: 252px;
             left: 428px;
         }
         .about__item__image-1 {
-            background-image: url(images/about-image-1-768.jpg);
+            background-image: url(../images/about-image-1-768.jpg);
             width: 401px;
         }
         .about__item__image-2 {
-            background-image: url(images/about-image-2-768.jpg);
+            background-image: url(../images/about-image-2-768.jpg);
             width: 401px;
         }
         .about__item__image-3 {
-            background-image: url(images/about-image-3-768.jpg);
+            background-image: url(../images/about-image-3-768.jpg);
             width: 401px;
         }
         .about__item__image-4 {
-            background-image: url(images/about-image-4-768.jpg);
+            background-image: url(../images/about-image-4-768.jpg);
             width: 401px;
         }
         .about__item__image-5 {
-            background-image: url(images/about-image-5-768.jpg);
+            background-image: url(../images/about-image-5-768.jpg);
             width: 401px;
         }
         .about__item__image-6 {
-            background-image: url(images/about-image-6-768.jpg);
+            background-image: url(../images/about-image-6-768.jpg);
             width: 401px;
         }
         .swiper-button-next:after,
@@ -3833,27 +3833,27 @@
             line-height: 9px;
         }
         .about__item__image-1 {
-            background-image: url(images/about-image-1-320.jpg);
+            background-image: url(../images/about-image-1-320.jpg);
             height: 116px;
         }
         .about__item__image-2 {
-            background-image: url(images/about-image-2-320.jpg);
+            background-image: url(../images/about-image-2-320.jpg);
             height: 116px;
         }
         .about__item__image-3 {
-            background-image: url(images/about-image-3-320.jpg);
+            background-image: url(../images/about-image-3-320.jpg);
             height: 116px;
         }
         .about__item__image-4 {
-            background-image: url(images/about-image-4-320.jpg);
+            background-image: url(../images/about-image-4-320.jpg);
             height: 116px;
         }
         .about__item__image-5 {
-            background-image: url(images/about-image-5-320.jpg);
+            background-image: url(../images/about-image-5-320.jpg);
             height: 116px;
         }
         .about__item__image-6 {
-            background-image: url(images/about-image-6-320.jpg);
+            background-image: url(../images/about-image-6-320.jpg);
             height: 116px;
         }
     }
@@ -3953,7 +3953,7 @@
     }
     
     .footer__vector {
-        background-image: url(images/footer-vector.svg);
+        background-image: url(../images/footer-vector.svg);
         background-repeat: no-repeat;
         width: 100%;
         height: 22px;
