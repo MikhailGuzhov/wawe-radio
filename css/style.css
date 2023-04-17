@@ -21,7 +21,7 @@
 
 :root {
     /* --color-gold: #CC9933;
-    --color-white: #fff; */
+  --color-white: #fff; */
 }
 
 html {
@@ -255,6 +255,27 @@ html {
 
 .form__links-link {
     margin-right: 45px;
+}
+
+.social-link {
+    cursor: pointer;
+}
+
+.social-link-svg {
+    cursor: pointer;
+    fill: #A1A6B4;
+}
+
+.social-link-svg :hover {
+    fill: #4f28a5;
+}
+
+.social-link-svg :focus {
+    fill: #4f28a5;
+}
+
+.social-link-svg :active {
+    fill: #4f28a5;
 }
 
 .form-close {
@@ -573,7 +594,7 @@ html {
 }
 
 .hamburger.is-active {
-    bottom: 1912px;
+    top: 2%;
     position: absolute;
     left: 4%;
 }
