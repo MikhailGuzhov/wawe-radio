@@ -1,0 +1,156 @@
+/*
+* Оформление контактной формы
+* без дополительных изображений;
+* исключительно средствами CSS;
+*
+*  @dobrovoi dbmast.ru
+*/
+
+
+/*--Слой затемнения фона--*/
+
+
+/*--Модальное окно--*/
+
+
+/*--Фиксированное позиционирование для тупого IE6--*/
+
+*html #fade {
+  position: absolute;
+}
+
+*html .popup_block {
+  position: absolute;
+}
+
+
+/*--Блок содержания--*/
+
+.note {
+  margin: 0 0 30px 0;
+}
+
+.note img {
+  float: left;
+  margin: 5px 10px 5px 0;
+  width: 100px;
+  height: 100px;
+}
+
+.note h1 {
+  color: #008000;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  font: 24px Monotype Corsiva, Arial;
+}
+
+
+/* формируем кнопку закрытия */
+
+.close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgba(61, 61, 61, 0.8);
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 20px;
+  -webkit-transition: all ease .8s;
+  -moz-transition: all ease .8s;
+  -ms-transition: all ease .8s;
+  -o-transition: all ease .8s;
+  transition: all ease .8s;
+}
+
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+}
+
+.close:hover {
+  background-color: rgba(252, 20, 0, 0.8);
+  /*--крутим кнопку при наведении--*/
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+/* контактная форма */
+
+
+/* формируем элементы внутри формы */
+
+#form fieldset {
+  display: inline;
+  float: left;
+  margin: 0;
+  margin-left: 26px;
+  padding: 0;
+  width: 42%;
+  border: none;
+}
+
+
+/* подписи к полям ввода */
+
+
+/* изменяем оформление полей ввода при фокусе */
+
+.header__input:focus,
+#form textarea:focus {
+  background: #F2F2F2;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  color: #333;
+}
+
+
+/* формируем нижний сектор формы */
+
+
+/* оформляем кнопку отправки */
+
+
+/* изменяем оформление кнопки при наведении */
+
+.header__button-form:hover {
+  border-color: #2C8BA5;
+  box-shadow: none;
+}
+
+
+/* изменяем оформление кнопки при нажатии */
+
+.header__button-form:active {
+  border-bottom: 1px solid #5BC0DE;
+  background-image: -moz-linear-gradient(#2F96B4, #5BC0DE);
+  /* Firefox */
+  background-image: -webkit-linear-gradient(#2F96B4, #5BC0DE);
+  /* Chrome, Safari */
+  background-image: -ms-linear-gradient(#2F96B4, #5BC0DE);
+  /* IE-10 */
+  background-image: -o-linear-gradient(#2F96B4, #5BC0DE);
+  /* Opera */
+  /* добавляем внутренние тени */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+  /* градиент для IE6-9 */
+  filter: progid: DXImageTransform.Microsoft.Gradient(StartColorStr='#2F96B4', EndColorStr='#5BC0DE', GradientType=0);
+}
+
+
+/* конец формы */
